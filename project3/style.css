@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+}
+p{
+    margin: 50px;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+ul li{
+    justify-content: end;
+    list-style: none;
+    margin: 1px; 
+}
+ul li button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+}
+ul li button:hover{
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+ul li button:active{
+        background-color: #84c386;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+}
+#red{
+    background-color: red;
+}
+#black{
+    background-color: black;
+    color: white;
+}
+#Green{
+    background-color: green;
+}
+#Orange{
+    background-color: orange;
+}
